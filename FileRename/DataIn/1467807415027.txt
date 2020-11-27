@@ -1,0 +1,9 @@
+1 sec duration for each. tick speed 1/sec.
+conduit issue? make sure sufficient.
+800,000*225=180million.
+bob scale 4x at least. set to 200billion... should be plenty.
+
+burst laser.
+10 sec charge for 1 sec, 6 sec cap.
+sustained DPS and cost same.
+3x20, 60 DPS, 600 burst. 3600 burst total.

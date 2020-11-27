@@ -1,0 +1,6 @@
+factorio
+mod armor  art
+
+for each item, show image in grid, hover over item, and recipe/tech
+
+also show coil and fusion recipes

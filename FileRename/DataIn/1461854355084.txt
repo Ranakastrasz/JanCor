@@ -1,0 +1,12 @@
+replace fuel generator equipment via script based on fuel
+
+get all equipment and item functional. recipes later
+
+fuel gauge?
+
+shield and other animations seperate
+
+if can toggle, add hotkey to toggle speed equipment.
+
+
+

@@ -1,0 +1,65 @@
+ 
+I need to be able to run an app on my android phone.
+ 
+When it starts, it pops up a initial screen, were I can add a blood sugar reading
+ 
+I am not required to add a blood sugar reading.  I can be there just to look at my readings.
+ 
+ 
+Readings can be 50 .. 400.  Anything out of range is simply rejected.
+The units are mg/dl.
+ 
+ 
+Readings are saved in an editable text file, so that corrections can be made.
+ 
+ 
+The main screen shows
+ 
+Blood sugar average for the day
+Blood sugar average for the week
+Blood sugar average for the month
+Estimated A1C Level, based on all data
+ 
+ 
+From time to time, I need to throw away all of the data and start from scratch.
+That functionality should be in the app.
+ 
+ 
+Your turn to ask questions.
+
+
+
+Screen
+-- Allow blood sugar reading Entry -> Record.
+
+-- Show average for Day, week, Month, All
+-- Allow viewing all Records
+-- Allow editing specific Record
+-- Allow removing specific Record. (Confirm)
+-- Allow clearing entire Table. (Confirm)
+
+-- Save button
+-- Exit Button
+
+Entry is integer, between 50 and 400 inclusive, else toast rejection.
+Entry is stored as integer, with date and time attached (automatically generated).
+
+
+Load
+Save
+
+Load-by-Filename?
+
+Browse (forward/backwards for many entries)
+
+Summery Data (seperate Page)
+Averages, Filters, etc
+
+
+"100,10/10/2017,10:10pm"
+
+100mg/dl, 10/10/2017, at 10:10pm
+
+Should be a good string.
+
+Function to save/load this.

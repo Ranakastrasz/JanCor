@@ -1,0 +1,15 @@
+reclaim
+cast ally or neutral
+on ally, deal damage build rate. if possible, make irreparable.
+on death, no death boom. instant start reclaim
+
+on neutral/wreckage, same, but gain back 90% mass, 10% energy value
+
+autocast? on ground cast queue? 
+
+on unit fatal damage from damage function, set to 100% HP - overkill. set to neutral owner. aircrash and boom. allow reclaim. take damage after as normal. break all target locks. 1 sec invulnerable? ward it? pause it?
+
+if cast assist on structure wreckage, rebuild?
+
+
+

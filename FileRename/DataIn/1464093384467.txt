@@ -1,0 +1,5 @@
+ground attack
+channeled ability. 
+save target location, hook into auto attack mechanic. include bound attacks. 
+
+on auto attack, retain cool down debt, and allow multiple attacks with delay.

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ee01c3cd-c27a-4324-96fb-e805f7f1c67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Objects">
+      <UniqueIdentifier>{6a4174cc-96f4-48a2-9b9c-a738d82defa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ReplaceableTextures">
+      <UniqueIdentifier>{ad4640f2-df38-4cf8-917b-c196c1150b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound">
+      <UniqueIdentifier>{e2e1ba5e-36cf-4a39-8c0e-87553aa961ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Units">
+      <UniqueIdentifier>{592c6d89-0a09-401f-97f5-293d7e980796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Units\Naga">
+      <UniqueIdentifier>{3aa9fb24-a192-41b2-99e5-5a4e455617ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Units\Naga\NagaMyrmidon">
+      <UniqueIdentifier>{b8f7609d-9f7a-4c0b-b89e-69105b4786c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound\Buildings">
+      <UniqueIdentifier>{ced44fc9-8289-40d8-a8e3-bed331aa350e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound\Buildings\Human">
+      <UniqueIdentifier>{f59cf64f-8646-4a41-908b-06b48dec06aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Objects\InventoryItems">
+      <UniqueIdentifier>{75444944-eb40-40ea-912a-d95b071ae19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Objects\InventoryItems\Imported">
+      <UniqueIdentifier>{4f6b4790-1c4a-4369-b8a5-9a0000f704e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ReplaceableTextures\CommandButtons">
+      <UniqueIdentifier>{54102913-7753-4658-a6c7-b316964d0f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ReplaceableTextures\CommandButtonsDisabled">
+      <UniqueIdentifier>{24676dd3-d25d-4d40-ad28-032b1ce00b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ReplaceableTextures\PassiveButtons">
+      <UniqueIdentifier>{f0eac024-0ba4-40a4-80c8-7e7dd84d6155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{01fbeae7-ff15-4694-aedd-a05fb9167d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Gurgmoth">
+      <UniqueIdentifier>{71caceb3-41ef-499e-9ab5-bc3c0e559c1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\(listfile)">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.doo">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.imp">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.j">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.mmp">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.shd">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3a">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3b">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3c">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3d">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3e">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3h">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3i">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3q">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3r">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3s">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3t">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.w3u">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.wct">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.wpm">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.wtg">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3map.wts">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3mapMap.blp">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\war3mapUnits.doo">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="Source\Units\Naga\NagaMyrmidon\NagaMyrmidon.blp">
+      <Filter>Source\Units\Naga\NagaMyrmidon</Filter>
+    </None>
+    <None Include="Source\Objects\InventoryItems\Imported\AlleriasFlute.mdx">
+      <Filter>Source\Objects\InventoryItems\Imported</Filter>
+    </None>
+    <None Include="Source\Objects\InventoryItems\Imported\Ankh.mdx">
+      <Filter>Source\Objects\InventoryItems\Imported</Filter>
+    </None>
+    <None Include="Source\Objects\InventoryItems\Imported\Bag_1.MDX">
+      <Filter>Source\Objects\InventoryItems\Imported</Filter>
+    </None>
+    <None Include="Source\Objects\InventoryItems\Imported\GemWhite.mdx">
+      <Filter>Source\Objects\InventoryItems\Imported</Filter>
+    </None>
+    <None Include="Source\Objects\InventoryItems\Imported\Item_Potion_BigBlue.mdx">
+      <Filter>Source\Objects\InventoryItems\Imported</Filter>
+    </None>
+    <None Include="Source\Objects\InventoryItems\Imported\Item_Potion_BigGreen.mdx">
+      <Filter>Source\Objects\InventoryItems\Imported</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtons\BtnSkillzNew.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtons\BTNSpell_Shadow_GatherShadows.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISBTNCage.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISBTNMagicVault.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISBTNOrbOfFire.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISBTNSkillzNew.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISBTNSpell_Shadow_GatherShadows.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASBearForm.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASFire.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASFrostArmor.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASImprovedUnholyArmor.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASOrbOfFire.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASOrbOfFrost.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASOrbOfLightning.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASOrbofSlowness.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASOrbOfVenom.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASRavenForm.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASRegenerate.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASSnazzyScrollPurple.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASSpiritLink.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASThoriumArmor.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASUnholyFrenzy.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\CommandButtonsDisabled\DISPASUnholyStrength.blp">
+      <Filter>Source\ReplaceableTextures\CommandButtonsDisabled</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASBearForm.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASFire.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASFrostArmor.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASImprovedUnholyArmor.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASOrbOfFire.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASOrbOfFrost.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASOrbOfLightning.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASOrbofSlowness.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASOrbOfVenom.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASRavenForm.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASRegenerate.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASSnazzyScrollPurple.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASSpiritLink.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASThoriumArmor.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASUnholyFrenzy.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+    <None Include="Source\ReplaceableTextures\PassiveButtons\PASUnholyStrength.blp">
+      <Filter>Source\ReplaceableTextures\PassiveButtons</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\war3mapMisc.txt">
+      <Filter>Source</Filter>
+    </Text>
+    <Text Include="Source\war3mapSkin.txt">
+      <Filter>Source</Filter>
+    </Text>
+    <Text Include="Scripts\Full Script.txt">
+      <Filter>Scripts</Filter>
+    </Text>
+    <Text Include="Scripts\Gurgmoth\Gurgmoth Current.txt">
+      <Filter>Scripts\Gurgmoth</Filter>
+    </Text>
+    <Text Include="Scripts\Gurgmoth\Gurgmoth Original.txt">
+      <Filter>Scripts\Gurgmoth</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\war3mapPreview.tga">
+      <Filter>Source</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Source\Sound\Buildings\Human\KnightResearchComplete1.wav">
+      <Filter>Source\Sound\Buildings\Human</Filter>
+    </Media>
+    <Media Include="Source\Sound\Buildings\Human\KnightUpgradeComplete1.wav">
+      <Filter>Source\Sound\Buildings\Human</Filter>
+    </Media>
+    <Media Include="Source\Sound\Buildings\Human\PeasantBuildingComplete1.wav">
+      <Filter>Source\Sound\Buildings\Human</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

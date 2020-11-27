@@ -1,0 +1,1 @@
+conduit. double production. pause 2 sec after shield damage taken

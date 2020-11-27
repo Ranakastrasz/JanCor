@@ -1,0 +1,10 @@
+veteran
+unit value is mass + energy/10
+
+on kill, gain XP of target value
+
+at 2-5x my value in XP, level up. add 5x requirement per level. 
+
+show xp as fraction of required parts of 100, and 100 place as level.
+any xp over level up is lost.
+

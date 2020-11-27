@@ -1,0 +1,36 @@
+
+function Trig_MNSSPL_Gurgmoth_Split_Conditions takes nothing returns boolean
+	return(GetUnitTypeId(GetTriggerUnit())=='n02T')and(GetUnitUserData(GetTriggerUnit())<=5) and (GetPlayerController(GetOwningPlayer(GetTriggerUnit()))!=MAP_CONTROL_USER)
+endfunction
+
+function Trig_MNSSPL_Gurgmoth_Split_Actions takes nothing returns nothing
+	set bj_forLoopAIndex=1
+	set bj_forLoopAIndexEnd=2
+	loop
+		exitwhen bj_forLoopAIndex>bj_forLoopAIndexEnd
+		call CreateNUnitsAtLoc(1,'n02T',GetOwningPlayer(GetTriggerUnit()),GetUnitLoc(GetTriggerUnit()),bj_UNIT_FACING)
+		set udg_real01=(I2R(GetUnitUserData(GetDyingUnit()))+1)
+		call SetUnitUserData(bj_lastCreatedUnit,(R2I(udg_real01)+0))
+		call SetUnitMoveSpeed(bj_lastCreatedUnit,(145.+(udg_real01*16.)))
+		set udg_real03=(150.-(20.*udg_real01))
+		if(udg_real03<=20.)then
+			set udg_real03=20.
+		endif
+		call SetUnitScalePercent(bj_lastCreatedUnit,udg_real03,udg_real03,udg_real03)
+        //call UnitAddAbility(bj_lastCreatedUnit,'A0CY')
+        //call UnitAddAbility(bj_lastCreatedUnit,'A0CZ')
+        //call UnitAddAbility(bj_lastCreatedUnit,'A0D0')
+        call SetUnitAbilityLevel(bj_lastCreatedUnit,'A0CY',R2I(udg_real01)+1)
+        call SetUnitAbilityLevel(bj_lastCreatedUnit,'A0CZ',R2I(udg_real01)+1)
+        call SetUnitAbilityLevel(bj_lastCreatedUnit,'A0D0',R2I(udg_real01)+1)
+        if(udg_real01 > 2.0) then
+            call UnitRemoveAbility(bj_lastCreatedUnit,'ACrk')
+        endif
+		if(GetOwningPlayer(GetTriggerUnit())==Player(11))then
+			call IssuePointOrderByIdLoc(bj_lastCreatedUnit,851983,GetRectCenter(udg_rect07))
+		else
+			call IssuePointOrderByIdLoc(bj_lastCreatedUnit,851983,GetRectCenter(udg_rect08))
+		endif
+		set bj_forLoopAIndex=bj_forLoopAIndex+1
+	endloop
+endfunction

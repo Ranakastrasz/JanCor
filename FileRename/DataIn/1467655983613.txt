@@ -1,0 +1,5 @@
+filter inserter recolor
+all inserter filter except burner
+
+gears moving parts
+electronic circuit electrical/ intelligent systems.

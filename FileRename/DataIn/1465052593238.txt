@@ -1,0 +1,2 @@
+print fish count
+breed fish

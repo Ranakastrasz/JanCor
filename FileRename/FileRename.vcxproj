@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1B40067-E616-430F-B0AD-BC9EE77BEE27}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FileRename</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BrowseInformation>false</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="FileRename.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DataIn\1458499280797.txt" />
+    <Text Include="DataIn\1458514707554.txt" />
+    <Text Include="DataIn\1458681596623.txt" />
+    <Text Include="DataIn\1458681671081.txt" />
+    <Text Include="DataIn\1458749399165.txt" />
+    <Text Include="DataIn\1459469389702.txt" />
+    <Text Include="DataIn\1459477544042.txt" />
+    <Text Include="DataIn\1459507484633.txt" />
+    <Text Include="DataIn\1459619553467.txt" />
+    <Text Include="DataIn\1460152986852.txt" />
+    <Text Include="DataIn\1460153312758.txt" />
+    <Text Include="DataIn\1460154475234.txt" />
+    <Text Include="DataIn\1460155899193.txt" />
+    <Text Include="DataIn\1460156034420.txt" />
+    <Text Include="DataIn\1460157540640.txt" />
+    <Text Include="DataIn\1460261039391.txt" />
+    <Text Include="DataIn\1460264383456.txt" />
+    <Text Include="DataIn\1460555088886.txt" />
+    <Text Include="DataIn\1460944620611.txt" />
+    <Text Include="DataIn\1461076659009.txt" />
+    <Text Include="DataIn\1461084816060.txt" />
+    <Text Include="DataIn\1461159657040.txt" />
+    <Text Include="DataIn\1461186024818.txt" />
+    <Text Include="DataIn\1461343090667.txt" />
+    <Text Include="DataIn\1461854355084.txt" />
+    <Text Include="DataIn\1462461663120.txt" />
+    <Text Include="DataIn\1462710356072.txt" />
+    <Text Include="DataIn\1462739880887.txt" />
+    <Text Include="DataIn\1462740143897.txt" />
+    <Text Include="DataIn\1462740296303.txt" />
+    <Text Include="DataIn\1462822895539.txt" />
+    <Text Include="DataIn\1463318009158.txt" />
+    <Text Include="DataIn\1463332287530.txt" />
+    <Text Include="DataIn\1463422443401.txt" />
+    <Text Include="DataIn\1464093384467.txt" />
+    <Text Include="DataIn\1464197071906.txt" />
+    <Text Include="DataIn\1464197709389.txt" />
+    <Text Include="DataIn\1464219616267.txt" />
+    <Text Include="DataIn\1464219852448.txt" />
+    <Text Include="DataIn\1464235623005.txt" />
+    <Text Include="DataIn\1464321390202.txt" />
+    <Text Include="DataIn\1464352538929.txt" />
+    <Text Include="DataIn\1464355110452.txt" />
+    <Text Include="DataIn\1464372734440.txt" />
+    <Text Include="DataIn\1464436870203.txt" />
+    <Text Include="DataIn\1464711649531.txt" />
+    <Text Include="DataIn\1464955034696.txt" />
+    <Text Include="DataIn\1464963455430.txt" />
+    <Text Include="DataIn\1464963741710.txt" />
+    <Text Include="DataIn\1464970907968.txt" />
+    <Text Include="DataIn\1464973963927.txt" />
+    <Text Include="DataIn\1465052593238.txt" />
+    <Text Include="DataIn\1465055371195.txt" />
+    <Text Include="DataIn\1465056048388.txt" />
+    <Text Include="DataIn\1465064417531.txt" />
+    <Text Include="DataIn\1465152517295.txt" />
+    <Text Include="DataIn\1465881592639.txt" />
+    <Text Include="DataIn\1465882034510.txt" />
+    <Text Include="DataIn\1466019910117.txt" />
+    <Text Include="DataIn\1466221497674.txt" />
+    <Text Include="DataIn\1466310308475.txt" />
+    <Text Include="DataIn\1466777168209.txt" />
+    <Text Include="DataIn\1466803878914.txt" />
+    <Text Include="DataIn\1467218271352.txt" />
+    <Text Include="DataIn\1467462572655.txt" />
+    <Text Include="DataIn\1467475481547.txt" />
+    <Text Include="DataIn\1467651357989.txt" />
+    <Text Include="DataIn\1467653298701.txt" />
+    <Text Include="DataIn\1467655983613.txt" />
+    <Text Include="DataIn\1467662032369.txt" />
+    <Text Include="DataIn\1467683697554.txt" />
+    <Text Include="DataIn\1467807415027.txt" />
+    <Text Include="DataIn\1467830201747.txt" />
+    <Text Include="DataIn\1467864750616.txt" />
+    <Text Include="DataIn\1467947352640.txt" />
+    <Text Include="DataIn\1467998101618.txt" />
+    <Text Include="DataIn\1467998251543.txt" />
+    <Text Include="DataIn\1468005204285.txt" />
+    <Text Include="DataIn\1468164713198.txt" />
+    <Text Include="DataIn\1468177500824.txt" />
+    <Text Include="DataIn\1468413365125.txt" />
+    <Text Include="DataIn\1468427361112.txt" />
+    <Text Include="DataIn\1468431698645.txt" />
+    <Text Include="DataIn\1468512576196.txt" />
+    <Text Include="DataIn\1468553394131.txt" />
+    <Text Include="DataIn\1468595732854.txt" />
+    <Text Include="DataIn\1468598095361.txt" />
+    <Text Include="DataOut\168_lbs_as_of_4_19__20.txt" />
+    <Text Include="DataOut\1_sec_duration_for_each_tick_speed_1_sec__72.txt" />
+    <Text Include="DataOut\5_score_dramatic_reading__13.txt" />
+    <Text Include="DataOut\6_14_last_insident__54.txt" />
+    <Text Include="DataOut\Also_a_shout_out_to_my_FF_mate_Indogma_Betaing__32.txt" />
+    <Text Include="DataOut\America_s_best__80.txt" />
+    <Text Include="DataOut\And_what_are_you_doing_with_Ms_Sparkle_herself_I__48.txt" />
+    <Text Include="DataOut\And_Zero_was_an_aunt_now_Her_stubbornly_brave_little__34.txt" />
+    <Text Include="DataOut\Anyway_sorry_about_the_delay_it_looks_like_the_once__81.txt" />
+    <Text Include="DataOut\As_Stalin_once_said_one_death_is_an_interesting_tragedy__4.txt" />
+    <Text Include="DataOut\Austin_powers__3.txt" />
+    <Text Include="DataOut\awkward_Marie_sombras_door__82.txt" />
+    <Text Include="DataOut\Back_when_I_was_in_Secondary_School_I_read_a__50.txt" />
+    <Text Include="DataOut\balefire_megaspell_descriptions__83.txt" />
+    <Text Include="DataOut\bhost_map_download_to_recover__41.txt" />
+    <Text Include="DataOut\bidirection_assist_chain__43.txt" />
+    <Text Include="DataOut\Bitch_as_the_star_of_a_shoujo_manga_or_I__64.txt" />
+    <Text Include="DataOut\card_trays_pront__15.txt" />
+    <Text Include="DataOut\Careful_Defiant_warned_glancing_over_one_shoulder_Too_much_extra__5.txt" />
+    <Text Include="DataOut\conduit_double_production_pause_2_sec_after_shield_damage_taken__62.txt" />
+    <Text Include="DataOut\darkness_beyond_darkness__26.txt" />
+    <Text Include="DataOut\direct_smelting_and_refining_no_ore_conversion_rquired__67.txt" />
+    <Text Include="DataOut\experimental_crush__37.txt" />
+    <Text Include="DataOut\factorio__44.txt" />
+    <Text Include="DataOut\factorio__57.txt" />
+    <Text Include="DataOut\familiar_land__17.txt" />
+    <Text Include="DataOut\filter_inserter_recolor__69.txt" />
+    <Text Include="DataOut\fix_inserters__47.txt" />
+    <Text Include="DataOut\ground_attack__35.txt" />
+    <Text Include="DataOut\Heh_it_would_be_a_tough_battle_to_decide_who__77.txt" />
+    <Text Include="DataOut\homestuck_music__6.txt" />
+    <Text Include="DataOut\how_to_walk_at_matching_speeds__12.txt" />
+    <Text Include="DataOut\Invasion_is_my_playground_of_sorts_there_will_continue_to__75.txt" />
+    <Text Include="DataOut\It_makes_me_wonder_what_other_humans_are_like_inside__30.txt" />
+    <Text Include="DataOut\It_s_alright_Greggie_You_can_tell_me_anything_You__31.txt" />
+    <Text Include="DataOut\I_just_realized_how_amusingly_comic_book_complicated_this_would__73.txt" />
+    <Text Include="DataOut\I_nodded_Tell_you_a_dirty_little_secret_Killing_isn__2.txt" />
+    <Text Include="DataOut\I_was_thinking_of_a_Club_Sandwich_he_said__86.txt" />
+    <Text Include="DataOut\Jack_takes_the_lead_and_smiles_at_you_saying_This__24.txt" />
+    <Text Include="DataOut\judgement_Apocalypse_survival__19.txt" />
+    <Text Include="DataOut\July_15_contacts_start__84.txt" />
+    <Text Include="DataOut\Just_me_and_my_lawn_Well_a_potted_plant_actually__23.txt" />
+    <Text Include="DataOut\Klingon_functions_don_t_have_parameters_they_have_arguments_AND__16.txt" />
+    <Text Include="DataOut\lamborcomf__53.txt" />
+    <Text Include="DataOut\look_at_flamethrower_stats_cut_range_reinstate_combat_revamp__70.txt" />
+    <Text Include="DataOut\mess_with_evolution_gui__60.txt" />
+    <Text Include="DataOut\mlp_dimension_rift_in_village_travel_route_fog__56.txt" />
+    <Text Include="DataOut\mlp_plushies_aurora_wourld__14.txt" />
+    <Text Include="DataOut\Mover_Shaker__7.txt" />
+    <Text Include="DataOut\nerf_pd__42.txt" />
+    <Text Include="DataOut\new_vest__10.txt" />
+    <Text Include="DataOut\nightmare_moon_buried_alive_suffocation_from_heat__61.txt" />
+    <Text Include="DataOut\Now_he_was_the_guest_of_the_bastard_child_of__9.txt" />
+    <Text Include="DataOut\print_fish_count__52.txt" />
+    <Text Include="DataOut\Pyromaniac_technomancer_blacksmith_with_Steampunk_tendencies__76.txt" />
+    <Text Include="DataOut\Rachel_about_PTI_and_Bradford__38.txt" />
+    <Text Include="DataOut\Rarity_was_the_one_who_answered_Well_there_is_the__85.txt" />
+    <Text Include="DataOut\raw_33__68.txt" />
+    <Text Include="DataOut\reclaim__36.txt" />
+    <Text Include="DataOut\replace_fuel_generator_equipment_via_script_based_on_fuel__25.txt" />
+    <Text Include="DataOut\Re_Is_the_jump_from_science_pack_2_to_3__74.txt" />
+    <Text Include="DataOut\Sao_worm__33.txt" />
+    <Text Include="DataOut\sat_7_12__66.txt" />
+    <Text Include="DataOut\Scarab_Worm_Scion_by_FFFX_recently_didn_t_you__27.txt" />
+    <Text Include="DataOut\schedule_off_June_28_for_dr_apt_medication_follow_up__46.txt" />
+    <Text Include="DataOut\security_commenter__28.txt" />
+    <Text Include="DataOut\Sertraline_levoceterizine_melatonin__21.txt" />
+    <Text Include="DataOut\shield_always_visible__59.txt" />
+    <Text Include="DataOut\Short_Circuit_ran_his_hoof_over_his_face_spreading_his__71.txt" />
+    <Text Include="DataOut\standalone_increments_mod_salvage_mod__58.txt" />
+    <Text Include="DataOut\Stargate_worm__45.txt" />
+    <Text Include="DataOut\Steve_nodded_looking_around_the_spaceport_Yeah_I_hear_ya__8.txt" />
+    <Text Include="DataOut\strikes_work_at_zero_charge__55.txt" />
+    <Text Include="DataOut\sun8_2__78.txt" />
+    <Text Include="DataOut\sun8_3__63.txt" />
+    <Text Include="DataOut\sun8_3__65.txt" />
+    <Text Include="DataOut\sun8_3__87.txt" />
+    <Text Include="DataOut\talk_Chris_and_shadowing_work__39.txt" />
+    <Text Include="DataOut\techo_showcon__11.txt" />
+    <Text Include="DataOut\They_aren_t_reporters_Shep_Ilena_reminded_the_poor_human__22.txt" />
+    <Text Include="DataOut\The_existence_of_the_Endbringers_is_one_of_the_key__79.txt" />
+    <Text Include="DataOut\This_Pantheon_If_they_re_responsible_for_everything_that_happened__29.txt" />
+    <Text Include="DataOut\Twilight_said_something_to_calm_him_down_then_took_the__49.txt" />
+    <Text Include="DataOut\veteran__40.txt" />
+    <Text Include="DataOut\What_do_he_began_then_he_paused_Fuck_You_recorded__1.txt" />
+    <Text Include="DataOut\xcom_weapon_shards_x3__18.txt" />
+    <Text Include="DataOut\You_know_the_IQ_of_the_mob_is_equal_to__51.txt" />
+    <Text Include="DataOut\__88.txt" />
+    <Text Include="DataOut\__89.txt" />
+    <Text Include="DataOut\__90.txt" />
+    <Text Include="DataOut\__91.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

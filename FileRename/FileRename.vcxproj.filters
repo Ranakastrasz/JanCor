@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FileRename.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DataIn">
+      <UniqueIdentifier>{d2256918-90c9-45f7-87b8-2a9a6e229f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataOut">
+      <UniqueIdentifier>{360959e6-01e0-45af-81a1-76ac50825af2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DataIn\1458499280797.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1458514707554.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1458681596623.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1458681671081.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1458749399165.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1459469389702.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1459477544042.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1459507484633.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1459619553467.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460152986852.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460153312758.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460154475234.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460155899193.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460156034420.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460157540640.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460261039391.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460264383456.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460555088886.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1460944620611.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1461076659009.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1461084816060.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1461159657040.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1461186024818.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1461343090667.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1461854355084.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1462461663120.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1462710356072.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1462739880887.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1462740143897.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1462740296303.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1462822895539.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1463318009158.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1463332287530.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1463422443401.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464093384467.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464197071906.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464197709389.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464219616267.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464219852448.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464235623005.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464321390202.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464352538929.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464355110452.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464372734440.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464436870203.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464711649531.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464955034696.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464963455430.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464963741710.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464970907968.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1464973963927.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1465052593238.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1465055371195.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1465056048388.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1465064417531.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1465152517295.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1465881592639.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1465882034510.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1466019910117.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1466221497674.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1466310308475.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1466777168209.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1466803878914.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467218271352.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467462572655.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467475481547.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467651357989.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467653298701.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467655983613.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467662032369.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467683697554.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467807415027.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467830201747.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467864750616.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467947352640.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467998101618.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1467998251543.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468005204285.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468164713198.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468177500824.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468413365125.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468427361112.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468431698645.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468512576196.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468553394131.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468595732854.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataIn\1468598095361.txt">
+      <Filter>DataIn</Filter>
+    </Text>
+    <Text Include="DataOut\__88.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\__89.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\__90.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\__91.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\1_sec_duration_for_each_tick_speed_1_sec__72.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\5_score_dramatic_reading__13.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\6_14_last_insident__54.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\168_lbs_as_of_4_19__20.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Also_a_shout_out_to_my_FF_mate_Indogma_Betaing__32.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\America_s_best__80.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\And_what_are_you_doing_with_Ms_Sparkle_herself_I__48.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\And_Zero_was_an_aunt_now_Her_stubbornly_brave_little__34.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Anyway_sorry_about_the_delay_it_looks_like_the_once__81.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\As_Stalin_once_said_one_death_is_an_interesting_tragedy__4.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Austin_powers__3.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\awkward_Marie_sombras_door__82.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Back_when_I_was_in_Secondary_School_I_read_a__50.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\balefire_megaspell_descriptions__83.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\bhost_map_download_to_recover__41.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\bidirection_assist_chain__43.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Bitch_as_the_star_of_a_shoujo_manga_or_I__64.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\card_trays_pront__15.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Careful_Defiant_warned_glancing_over_one_shoulder_Too_much_extra__5.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\conduit_double_production_pause_2_sec_after_shield_damage_taken__62.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\darkness_beyond_darkness__26.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\direct_smelting_and_refining_no_ore_conversion_rquired__67.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\experimental_crush__37.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\factorio__44.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\factorio__57.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\familiar_land__17.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\filter_inserter_recolor__69.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\fix_inserters__47.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\ground_attack__35.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Heh_it_would_be_a_tough_battle_to_decide_who__77.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\homestuck_music__6.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\how_to_walk_at_matching_speeds__12.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\I_just_realized_how_amusingly_comic_book_complicated_this_would__73.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\I_nodded_Tell_you_a_dirty_little_secret_Killing_isn__2.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\I_was_thinking_of_a_Club_Sandwich_he_said__86.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Invasion_is_my_playground_of_sorts_there_will_continue_to__75.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\It_makes_me_wonder_what_other_humans_are_like_inside__30.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\It_s_alright_Greggie_You_can_tell_me_anything_You__31.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Jack_takes_the_lead_and_smiles_at_you_saying_This__24.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\judgement_Apocalypse_survival__19.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\July_15_contacts_start__84.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Just_me_and_my_lawn_Well_a_potted_plant_actually__23.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Klingon_functions_don_t_have_parameters_they_have_arguments_AND__16.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\lamborcomf__53.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\look_at_flamethrower_stats_cut_range_reinstate_combat_revamp__70.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\mess_with_evolution_gui__60.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\mlp_dimension_rift_in_village_travel_route_fog__56.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\mlp_plushies_aurora_wourld__14.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Mover_Shaker__7.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\nerf_pd__42.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\new_vest__10.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\nightmare_moon_buried_alive_suffocation_from_heat__61.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Now_he_was_the_guest_of_the_bastard_child_of__9.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\print_fish_count__52.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Pyromaniac_technomancer_blacksmith_with_Steampunk_tendencies__76.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Rachel_about_PTI_and_Bradford__38.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Rarity_was_the_one_who_answered_Well_there_is_the__85.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\raw_33__68.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Re_Is_the_jump_from_science_pack_2_to_3__74.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\reclaim__36.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\replace_fuel_generator_equipment_via_script_based_on_fuel__25.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Sao_worm__33.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\sat_7_12__66.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Scarab_Worm_Scion_by_FFFX_recently_didn_t_you__27.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\schedule_off_June_28_for_dr_apt_medication_follow_up__46.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\security_commenter__28.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Sertraline_levoceterizine_melatonin__21.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\shield_always_visible__59.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Short_Circuit_ran_his_hoof_over_his_face_spreading_his__71.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\standalone_increments_mod_salvage_mod__58.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Stargate_worm__45.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Steve_nodded_looking_around_the_spaceport_Yeah_I_hear_ya__8.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\strikes_work_at_zero_charge__55.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\sun8_2__78.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\sun8_3__63.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\sun8_3__65.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\sun8_3__87.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\talk_Chris_and_shadowing_work__39.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\techo_showcon__11.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\The_existence_of_the_Endbringers_is_one_of_the_key__79.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\They_aren_t_reporters_Shep_Ilena_reminded_the_poor_human__22.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\This_Pantheon_If_they_re_responsible_for_everything_that_happened__29.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\Twilight_said_something_to_calm_him_down_then_took_the__49.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\veteran__40.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\What_do_he_began_then_he_paused_Fuck_You_recorded__1.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\xcom_weapon_shards_x3__18.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+    <Text Include="DataOut\You_know_the_IQ_of_the_mob_is_equal_to__51.txt">
+      <Filter>DataOut</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,58 @@
+Record
+-Holds data on a record
+
+
+
+Inputs
+-Save
+-Undo
+-Delete
+-BSString
+States
+-LoadedRecord
+-NewRecord
+
+
+
+
+
+RecordPanel
+Displays a record.
+
+Inputs
+-Edit
+
+OnEdit, throw to Manager for edit.
+
+
+EditPanel
+A record opened for editing
+
+Inputs
+-Save
+-Undo
+-Delete
+-BSString
+
+States
+-LoadedRecord
+-NewRecord
+
+
+Create a new Record, only held by this.
+OnSave, throw to manager as a new record, Create a new one.
+OnDelete, reset to default, destroy and create a new one.
+OnUndo, revert changes. Reload if it was loaded, otherwise create a new one.
+
+OnCreate, create a record, current Time/Date, blank BS value
+
+
+RecordManager
+Holds all records that exist currently, chooses how to display them, saves/Loads them, etc
+
+Has container with all saved records.
+Can save from and load to file (possibly by name?)
+Can Setup Panels to draw.
+
+Can recieve Records for saving - Redraw Panels
+Can recieve Records for Editing - Send to EditPanel

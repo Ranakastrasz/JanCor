@@ -1,0 +1,8 @@
+factorio
+shield sfx
+try slow capsule sfx
+
+
+60 sec low fuel delay undo
+fuel icon
+charge icon and sparks
