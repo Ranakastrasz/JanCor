@@ -32,12 +32,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodSugar", "BloodSugar\Bl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nand2tetris", "Challenges\nand2tetris\nand2tetris.vcxproj", "{EAEEB16C-B09D-41E6-AD61-3FFFFE6AC495}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A1C", "A1C", "{2E493BCD-B891-40A3-9BEB-8A336CEDA700}"
-EndProject
-Project("{39E2626F-3545-4960-A6E8-258AD8476CE5}") = "A1C.Packaging", "A1C\A1C.Packaging\A1C.Packaging.androidproj", "{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A1C.NativeActivity", "A1C\A1C.NativeActivity\A1C.NativeActivity.vcxproj", "{05E2A565-5928-477A-8FC8-2CD2D00B2E27}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -232,114 +226,11 @@ Global
 		{EAEEB16C-B09D-41E6-AD61-3FFFFE6AC495}.Release|x64.Build.0 = Release|x64
 		{EAEEB16C-B09D-41E6-AD61-3FFFFE6AC495}.Release|x86.ActiveCfg = Release|Win32
 		{EAEEB16C-B09D-41E6-AD61-3FFFFE6AC495}.Release|x86.Build.0 = Release|Win32
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|ARM.ActiveCfg = Debug|ARM
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|ARM.Build.0 = Debug|ARM
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|ARM.Deploy.0 = Debug|ARM
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|ARM64.Build.0 = Debug|ARM64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|x64.ActiveCfg = Debug|x64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|x64.Build.0 = Debug|x64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|x64.Deploy.0 = Debug|x64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|x86.ActiveCfg = Debug|x86
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|x86.Build.0 = Debug|x86
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Debug|x86.Deploy.0 = Debug|x86
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|Any CPU.ActiveCfg = Release|x86
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|ARM.ActiveCfg = Release|ARM
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|ARM.Build.0 = Release|ARM
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|ARM.Deploy.0 = Release|ARM
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|ARM64.ActiveCfg = Release|ARM64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|ARM64.Build.0 = Release|ARM64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|ARM64.Deploy.0 = Release|ARM64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|x64.ActiveCfg = Release|x64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|x64.Build.0 = Release|x64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|x64.Deploy.0 = Release|x64
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|x86.ActiveCfg = Release|x86
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|x86.Build.0 = Release|x86
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2}.Release|x86.Deploy.0 = Release|x86
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|ARM.ActiveCfg = Debug|ARM
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|ARM.Build.0 = Debug|ARM
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|ARM64.Build.0 = Debug|ARM64
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|x64.ActiveCfg = Debug|x64
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|x64.Build.0 = Debug|x64
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|x86.ActiveCfg = Debug|x86
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Debug|x86.Build.0 = Debug|x86
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|Any CPU.ActiveCfg = Release|x86
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|ARM.ActiveCfg = Release|ARM
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|ARM.Build.0 = Release|ARM
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|ARM64.ActiveCfg = Release|ARM64
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|ARM64.Build.0 = Release|ARM64
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|x64.ActiveCfg = Release|x64
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|x64.Build.0 = Release|x64
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|x86.ActiveCfg = Release|x86
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{2E038ADD-85E7-4C91-8CD9-5F3EC5F501D2} = {2E493BCD-B891-40A3-9BEB-8A336CEDA700}
-		{05E2A565-5928-477A-8FC8-2CD2D00B2E27} = {2E493BCD-B891-40A3-9BEB-8A336CEDA700}
-	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E664EBF9-0461-4A95-B434-F0BC0B045184}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 10
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://evilteach.visualstudio.com/
-		SccProjectUniqueName0 = ResourcesTechUpgrades\\ResourcesTechUpgrades.csproj
-		SccProjectName0 = ResourcesTechUpgrades
-		SccAuxPath0 = https://evilteach.visualstudio.com
-		SccLocalPath0 = ResourcesTechUpgrades
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName1 = AbyssGates\\AbyssGates.vcxproj
-		SccProjectName1 = AbyssGates
-		SccAuxPath1 = https://evilteach.visualstudio.com
-		SccLocalPath1 = AbyssGates
-		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName2 = FileRename\\FileRename.vcxproj
-		SccProjectName2 = FileRename
-		SccAuxPath2 = https://evilteach.visualstudio.com
-		SccLocalPath2 = FileRename
-		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName3 = OrganizeBookmarks\\OrganizeBookmarks.vcxproj
-		SccProjectName3 = OrganizeBookmarks
-		SccAuxPath3 = https://evilteach.visualstudio.com
-		SccLocalPath3 = OrganizeBookmarks
-		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName4 = mp3wrap\\mp3wrap.vcxproj
-		SccProjectName4 = mp3wrap
-		SccAuxPath4 = https://evilteach.visualstudio.com
-		SccLocalPath4 = mp3wrap
-		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName5 = integer_sqrt\\integer_sqrt.vcxproj
-		SccProjectName5 = integer_sqrt
-		SccAuxPath5 = https://evilteach.visualstudio.com
-		SccLocalPath5 = integer_sqrt
-		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName6 = fofx\\fofx.vcxproj
-		SccProjectName6 = fofx
-		SccAuxPath6 = https://evilteach.visualstudio.com
-		SccLocalPath6 = fofx
-		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName7 = LinkedList\\LinkedList.vcxproj
-		SccProjectName7 = LinkedList
-		SccAuxPath7 = https://evilteach.visualstudio.com
-		SccLocalPath7 = LinkedList
-		SccProvider7 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName8 = TechUpgrades\\TechUpgrades.vcxproj
-		SccProjectName8 = TechUpgrades
-		SccAuxPath8 = https://evilteach.visualstudio.com
-		SccLocalPath8 = TechUpgrades
-		SccProvider8 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName9 = test\\test.vcxproj
-		SccProjectName9 = test
-		SccAuxPath9 = https://evilteach.visualstudio.com
-		SccLocalPath9 = test
-		SccProvider9 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal
