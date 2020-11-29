@@ -63,3 +63,36 @@ Averages, Filters, etc
 Should be a good string.
 
 Function to save/load this.
+
+Subject: the Whine List
+
+ 
+
+Put the exit button back on.
+Fonts larger for my poor old eyes.
+Put the old icon back on.
+ 
+
+New Requirement.
+
+ 
+
+                Business requirement…   Make weekly backups so there is a fallback position when things go bad.
+
+ 
+
+                If the day is Saturday, create this file name pattern using the date “YYYY-MM-DD.txt”
+
+                If that file exists in the records directory, then stop.  Otherwise…
+
+                Copy records.txt to the file pattern above,  then stop.
+
+ 
+
+                There is no need to do maintenance on those files, just let them accumulate in the folder.
+
+ 
+
+Jan
+
+               
