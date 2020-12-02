@@ -72,6 +72,34 @@ public class RecordManager : MonoBehaviour
 		list = new List<string>();
 		list.Add(_ratio.ToString());
 		FileIO.WriteToFile("ratio", list);
+ 
+
+		/*
+		 If Day.is.Saturday Then
+			If Not FileNameExists(Today'sDateFormatted) Then
+				DoNothing
+			Else
+				Save (Records.txt as Today'sDateFormatted)
+			End
+		Else
+			DoNothing
+		 
+		 
+		 
+		 */
+		/*
+		 * Business requirement…   Make weekly backups so there is a fallback position when things go bad.
+		 *
+		 *
+         *      If the day is Saturday, create this file name pattern using the date “YYYY-MM-DD.txt”
+		 *
+         *      If that file exists in the records directory, then stop.  Otherwise…
+		 *
+         *      Copy records.txt to the file pattern above,  then stop.
+		 *
+ 		 *
+         *      There is no need to do maintenance on those files, just let them accumulate in the folder.
+		 */
 	}
 
 	public double GetBSAverage(int iPeriodDays)
