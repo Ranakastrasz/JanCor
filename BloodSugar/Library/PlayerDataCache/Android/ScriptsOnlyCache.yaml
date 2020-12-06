@@ -542,5 +542,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/Corwin Slater/Documents/GitHub/JanCor/BloodSugar/Demo/BloodSugar
-    1_2.apk
+  playerPath: C:/Users/Corwin Slater/Documents/GitHub/JanCor/BloodSugar/Demo/BloodSugar.apk
