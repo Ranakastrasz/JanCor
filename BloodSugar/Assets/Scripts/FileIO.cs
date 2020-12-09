@@ -11,9 +11,13 @@ public class FileIO : MonoBehaviour
 	public static void CreateFile(string iFileName)
 	{
 		string path = basePath + iFileName + fileType;
-		Directory.CreateDirectory(basePath);
+		CreateDirectory();
 		FileStream fileStream = File.Create(path);
 		fileStream.Close();
+	}
+	public static void CreateDirectory(string Path = "")
+	{
+		Directory.CreateDirectory(basePath+Path);
 	}
 
 	public static void WriteToFile(string iFileName, List<string> iStrings)
@@ -44,5 +48,18 @@ public class FileIO : MonoBehaviour
 			}
 		}
 		return list;
+	}
+
+	public static bool FileExists(string iFileName)
+	{
+		string path = basePath + iFileName + fileType;
+		if (File.Exists(path))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 }

@@ -20,7 +20,35 @@ public class RecordManager : MonoBehaviour
 
 	private void OnDestroy()
 	{
-		SaveToFile();
+	}
+
+	public void Save()
+	{
+		SaveRecords();
+		SaveRatio();
+
+		System.TimeSpan currentTime = System.DateTime.Now.TimeOfDay;
+
+		System.DateTime d1 = System.DateTime.Today + currentTime;
+		FileIO.CreateDirectory("Backup");
+		//string text = d1.ToString("YYYY_MM_dd_hh_mm_ss_tt"); // update the current time with df label
+		string text = d1.ToString("yyyy-MM-dd"); // update the current time with df label
+		string weekday = d1.ToString("ddd");
+		//if (weekday == "fri")
+		{
+			if (FileIO.FileExists("Backup/" + text))
+			{
+				// Do Nothing
+			}
+			else
+			{
+				SaveRecords("Backup/" + text, false);
+			}
+		}
+		//else
+		{ 
+			// Do Nothing
+		}
 	}
 
 	public void NewRecord(BSRecord iRecord)
@@ -40,14 +68,15 @@ public class RecordManager : MonoBehaviour
 		Redraw();
 	}
 
-	private void LoadFromFile()
+	private void LoadFromFile(string path = "records")
 	{
-		List<string> list = FileIO.ReadFile("records");
+		List<string> list = FileIO.ReadFile(path);
 		foreach (string item2 in list)
 		{
 			BSRecord item = new BSRecord(item2);
 			_records.Add(item);
 		}
+
 		List<string> list2 = FileIO.ReadFile("ratio");
 		if (list2.Count > 0)
 		{
@@ -59,20 +88,37 @@ public class RecordManager : MonoBehaviour
 		}
 	}
 
-	public void SaveToFile()
+
+	public void SaveRatio()
 	{
-		FileIO.CreateFile("records");
+
+		FileIO.CreateFile("ratio");
+		List<string> list = new List<string>();
+		list.Add(_ratio.ToString());
+		FileIO.WriteToFile("ratio", list);
+	}
+
+	public void SaveRecords(string path = "records", bool overwrite = true)
+	{
+		if (!overwrite)
+		{
+			if (FileIO.FileExists(path))
+				return;
+		}
+		else
+		{ 
+			// Continue and overwrite as normal.
+		}
+
+		FileIO.CreateFile(path);
 		List<string> list = new List<string>();
 		foreach (BSRecord record in _records)
 		{
 			list.Add(record.ToString());
 		}
-		FileIO.WriteToFile("records", list);
-		FileIO.CreateFile("ratio");
-		list = new List<string>();
-		list.Add(_ratio.ToString());
-		FileIO.WriteToFile("ratio", list);
- 
+		FileIO.WriteToFile(path, list);
+
+
 
 		/*
 		 If Day.is.Saturday Then
@@ -89,6 +135,12 @@ public class RecordManager : MonoBehaviour
 		 */
 		/*
 		 * Business requirement…   Make weekly backups so there is a fallback position when things go bad.
+		 *
+		 *  When a data point is recorded
+		 *  Create the a filename based on date with this format.  YYYY-MM-DD.txt
+		 *  Look in a backup directory under the place where the data is stored (creating it if needed)
+		 *  If YYYY-MM-DD.txt does not exist,
+		 *  Copy the current data file into the backup directory under that name.
 		 *
 		 *
          *      If the day is Saturday, create this file name pattern using the date “YYYY-MM-DD.txt”

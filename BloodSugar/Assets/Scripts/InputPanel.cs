@@ -40,13 +40,14 @@ public class InputPanel : MonoBehaviour
 			if (_blankRecord)
 			{
 				RecordManager.Active.NewRecord(_record);
+				_blankRecord = false;
 			}
 			else
 			{
 				RecordManager.Active.UpdateRecord(_record);
 			}
 			_BSField.text = "";
-			RecordManager.Active.SaveToFile();
+			RecordManager.Active.Save();
 			DisplayPanel.RedrawAll();
 		}
 		catch (Exception ex)
