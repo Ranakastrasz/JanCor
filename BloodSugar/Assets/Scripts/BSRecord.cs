@@ -47,7 +47,7 @@ public class BSRecord
 			_BSLevel = iBSLevel;
 			return;
 		}
-		throw new Exception("Bloodsugar out of Range " + _maxBSLevel + " <= " + iBSLevel + "<= " + _maxBSLevel);
+		throw new Exception("Bloodsugar out of Range " + _minBSLevel + " <= " + iBSLevel + "<= " + _maxBSLevel);
 	}
 
 	public override string ToString()
