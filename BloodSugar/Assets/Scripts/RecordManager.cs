@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class RecordManager : MonoBehaviour
@@ -154,24 +155,29 @@ public class RecordManager : MonoBehaviour
 		 */
 	}
 
-	public double GetBSAverage(int iPeriodDays)
+
+	public List<BSRecord> GetListForPeriod(int iPeriodDays)
 	{
-		int num = 0;
-		int num2 = 0;
-		double result = 0.0;
+		List<BSRecord> oRecords = new List<BSRecord>();
 		foreach (BSRecord record in _records)
 		{
 			if (DateTime.Parse(record._date).AddDays(iPeriodDays) >= DateTime.Now)
 			{
-				num++;
-				num2 += record._BSLevel;
+				oRecords.Add(record);
 			}
 		}
-		if (num != 0)
+		return oRecords;
+	}
+
+	public double GetBSAverage(int iPeriodDays)
+	{
+		List<BSRecord> bsList = GetListForPeriod(iPeriodDays);
+		int count = bsList.Count();
+		if (count > 1)
 		{
-			result = num2 / num;
+			return bsList.Average(item => item._BSLevel);
 		}
-		return result;
+		return 0;
 	}
 
 	public double GetA1C(int iPeriodDays)
@@ -179,6 +185,20 @@ public class RecordManager : MonoBehaviour
 		double bSAverage = GetBSAverage(iPeriodDays);
 		bSAverage *= _ratio;
 		return (46.7 + bSAverage) / 28.7;
+	}
+	public double GetStandardDeviation(int iPeriodDays)
+	{
+
+		double standardDeviation = 0;
+		List<BSRecord> bsList = GetListForPeriod(iPeriodDays);
+		int count = bsList.Count();
+		if (count > 1)
+		{
+			double avg = bsList.Average(item=> item._BSLevel);
+			double sum = bsList.Sum(d => (d._BSLevel - avg) * (d._BSLevel - avg));
+			standardDeviation = Math.Sqrt(sum / count);
+		}
+		return standardDeviation;
 	}
 
 	private void Redraw()
